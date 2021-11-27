@@ -1,2 +1,2 @@
 # SeAFusion
-The code of " When Image Fusion Meets High-Level Vision Tasks: A Semantic-Aware Real-time Infrared and Visible Image Fusion Framework"
+The code of "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network"
