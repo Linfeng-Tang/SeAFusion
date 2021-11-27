@@ -11,10 +11,6 @@ Run "**CUDA_VISIBLE_DEVICES=0 python train.py**" to train your model.
 Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model.
 
 
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
 ## Recommended Environment
 
  - [ ] torch  1.3.0 
