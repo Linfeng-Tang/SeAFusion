@@ -23,7 +23,7 @@ def prepare_data_path(dataset_path):
 
 
 class Fusion_dataset(Dataset):
-    def __init__(self, split):
+    def __init__(self, split, ir_path=None, vi_path=None):
         super(Fusion_dataset, self).__init__()
         assert split in ['train', 'val', 'test'], 'split must be "train"|"val"|"test"'
 
@@ -38,8 +38,8 @@ class Fusion_dataset(Dataset):
             self.length = min(len(self.filenames_vis), len(self.filenames_ir))
 
         elif split == 'val':
-            data_dir_vis = './MSRS/Visible/val/MSRS/'
-            data_dir_ir = './MSRS/Infrared/val/MSRS/'
+            data_dir_vis = vi_path
+            data_dir_ir = ir_path
             self.filepath_vis, self.filenames_vis = prepare_data_path(data_dir_vis)
             self.filepath_ir, self.filenames_ir = prepare_data_path(data_dir_ir)
             self.split = split
