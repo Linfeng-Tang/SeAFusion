@@ -19,7 +19,7 @@ from PIL import Image
 
 # To run, set the fused_dir, and the val path in the TaskFusionDataset.py
 def main():
-    fusion_model_path = './fusionmodel_final.pth'
+    fusion_model_path = './model/Fusion/fusionmodel_final.pth'
     fusionmodel = eval('FusionNet')(output=1)
     device = torch.device("cuda:{}".format(args.gpu) if torch.cuda.is_available() else "cpu")
     if args.gpu >= 0:
@@ -124,7 +124,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     n_class = 9
     seg_model_path = './model/Fusion/model_final.pth'
-    fusion_model_path = './fusionmodel_final.pth'
+    fusion_model_path = './model/Fusion/fusionmodel_final.pth'
     fused_dir = './Fusion_results'
     os.makedirs(fused_dir, mode=0o777, exist_ok=True)
     print('| testing %s on GPU #%d with pytorch' % (args.model_name, args.gpu))
