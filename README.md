@@ -3,7 +3,9 @@
 #  SeAFusion
 
 The code of "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network"
+
 The paper is now freely available for download through the following links: [https://authors.elsevier.com/c/1eMto5a7-Gls0k](https://authors.elsevier.com/c/1eMto5a7-Gls0k).
+
 ## To Train
 
 Run "**CUDA_VISIBLE_DEVICES=0 python train.py**" to train your model.
