@@ -3,7 +3,7 @@
 #  SeAFusion
 
 The code of "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network"
-
+The paper is now freely available for download through the following links: [https://authors.elsevier.com/c/1eMto5a7-Gls0k](https://authors.elsevier.com/c/1eMto5a7-Gls0k).
 ## To Train
 
 Run "**CUDA_VISIBLE_DEVICES=0 python train.py**" to train your model.
@@ -23,13 +23,12 @@ Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model.
 
 ## If this work is helpful to you, please cite it as：
 ```
-@article{TANG2022SeAFusion,
+@article{TANG202228SeAFusion,
 title = {Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network},
 journal = {Information Fusion},
+volume = {82},
+pages = {28-42},
 year = {2022},
-issn = {1566-2535},
-doi = {https://doi.org/10.1016/j.inffus.2021.12.004},
-url = {https://www.sciencedirect.com/science/article/pii/S1566253521002542},
-author = {Linfeng Tang and Jiteng Yuan and Jiayi Ma},
+issn = {1566-2535}
 }
 ```
