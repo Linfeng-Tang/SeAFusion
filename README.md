@@ -8,12 +8,15 @@ The paper is now freely available for download through the following links: [htt
 
 ## To Train
 
-Run "**CUDA_VISIBLE_DEVICES=0 python train.py**" to train your model.
+Run ```**CUDA_VISIBLE_DEVICES=0 python train.py**``` to train your model.
 The training data are selected from the MFNet dataset. For convenient training, users can download the training dataset from [here](https://pan.baidu.com/s/1xueuKYvYp7uPObzvywdgyA), in which the extraction code is: **bvfl**.
 
+The MFNet dataset can be downloaded via the following link:(https://drive.google.com/drive/folders/18BQFWRfhXzSuMloUmtiBRFrr6NSrf8Fw)[https://drive.google.com/drive/folders/18BQFWRfhXzSuMloUmtiBRFrr6NSrf8Fw].
+
+The MFNet project address is:(https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)[https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/].
 ## To Test
 
-Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model.
+Run ```**CUDA_VISIBLE_DEVICES=0 python test.py**``` to test the model.
 
 
 ## Recommended Environment
