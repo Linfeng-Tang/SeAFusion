@@ -18,6 +18,8 @@ The MFNet project address is: [https://www.mi.t.u-tokyo.ac.jp/static/projects/mi
 
 Run ```**CUDA_VISIBLE_DEVICES=0 python test.py**``` to test the model.
 
+## For quantitative evaluation
+For quantitative assessments, please follow the instruction to modify and run **. /Evaluation/test_evaluation.m** .
 
 ## Recommended Environment
 
