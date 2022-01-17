@@ -2,7 +2,7 @@ clc
 clear all
 
 
-easy = 1 % easy =1 表示测试运行不费时间的指标，easy=0 表示测试费时间的指标
+easy = 1 % easy = 1 means that the test runs are not time-consuming metrics, easy = 0 means that the test is time-consuming metrics
 row_name1 = 'row1';
 row_data1 = 'row2';
 
@@ -11,13 +11,13 @@ method_name = cellstr(names(1));
 row = 'A';
 row_name = strrep(row_name1, 'row', row);
 row_data = strrep(row_data1, 'row', row);
-fileFolder=fullfile('D:\Github\SeAFusion\test_imgs\ir'); % 红外图像或可见光图像所在文件夹
-dirOutput=dir(fullfile(fileFolder,'*.png')); % 源图像以及融合图像的后缀名
+fileFolder=fullfile('D:\Github\SeAFusion\test_imgs\ir'); % Folder where infrared images or visible images are located
+dirOutput=dir(fullfile(fileFolder,'*.png')); % the suffix name of the source and fused images
 fileNames = {dirOutput.name};
 [m, num] = size(fileNames);
-ir_dir = 'D:\Github\SeAFusion\test_imgs\ir'; % 红外图像所在文件夹
-vi_dir = 'D:\Github\SeAFusion\test_imgs\vi'; % 可见光图像所在文件夹
-Fused_dir = 'D:\Github\SeAFusion\Fusion_results'; % 融合图像所在文件夹
+ir_dir = 'D:\Github\SeAFusion\test_imgs\ir'; % Folder where infrared images are located
+vi_dir = 'D:\Github\SeAFusion\test_imgs\vi'; % Folder where visible images are located
+Fused_dir = 'D:\Github\SeAFusion\Fusion_results'; % Folder where fused images are located
 EN_set = [];    SF_set = [];SD_set = [];PSNR_set = [];
 MSE_set = [];MI_set = [];VIF_set = []; AG_set = [];
 CC_set = [];SCD_set = []; Qabf_set = [];
@@ -62,7 +62,7 @@ for j = 1:num
     end
     fprintf('Fusion Method:%s, Image Name: %s\n', cell2mat(method_name), fileNames{j})
 end
-file_name = './metric.xls' % 写入excel时的文件名
+file_name = './metric.xls' % File name for writing metrics to excel
 if easy ==1
     xlswrite(file_name, method_name,'EN',row_name)
     xlswrite(file_name, method_name,'SF',row_name)
