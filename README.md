@@ -55,12 +55,14 @@ object detection.
 
 ## If this work is helpful to you, please cite it as：
 ```
-@article{TANG202228SeAFusion,
+@article{TANG2022SeAFusion,
 title = {Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network},
+author = {Linfeng Tang and Jiteng Yuan and Jiayi Ma},
 journal = {Information Fusion},
 volume = {82},
 pages = {28-42},
 year = {2022},
-issn = {1566-2535}
+issn = {1566-2535},
+publisher={Elsevier}
 }
 ```
