@@ -3,7 +3,7 @@
 #  SeAFusion
 
 This is official Pytorch implementation of "[Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network](https://www.sciencedirect.com/science/article/pii/S1566253521002542)"
-## Welcome to follow the further work of our SeAFusion：Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity 【[Paper](https://www.sciencedirect.com/science/article/pii/S1566253523001860)】, [Code](https://github.com/Linfeng-Tang/PSFusion).
+## Welcome to follow the further work of our SeAFusion：Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity 【[Paper](https://www.sciencedirect.com/science/article/pii/S1566253523001860)】, 【[Code](https://github.com/Linfeng-Tang/PSFusion)】.
 ## Framework
 ![The overall framework of the proposed semantic-aware infrared and visible image fusion algorithm.](https://github.com/Linfeng-Tang/SeAFusion/blob/main/Figure/Framework.png)
 The overall framework of the proposed semantic-aware infrared and visible image fusion algorithm.
