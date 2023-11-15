@@ -81,7 +81,7 @@ def train_seg(i=0, logger=None):
 
     # dataset
     n_classes = 9
-    n_img_per_gpu = 16
+    n_img_per_gpu = args.batch_size
     n_workers = 4
     cropsize = [640, 480]
     ds = CityScapes('./MSRS/', cropsize=cropsize, mode='train', Method=Method)
@@ -194,7 +194,7 @@ def train_seg(i=0, logger=None):
     )
     logger.info('\n')
 
-def train_fusion(num=0, logger=None):
+def train_fusion(num=0, logger=None, args=None):
     # num: control the segmodel 
     lr_start = 0.001
     modelpth = './model'
@@ -222,7 +222,7 @@ def train_fusion(num=0, logger=None):
     print("the training dataset is length:{}".format(train_dataset.length))
     train_loader = DataLoader(
         dataset=train_dataset,
-        batch_size=8,
+        batch_size=args.batch_size,
         shuffle=True,
         num_workers=4,
         pin_memory=True,
@@ -397,10 +397,10 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     setup_logger(logpath)
     for i in range(4):
-        train_fusion(i, logger)  
+        train_fusion(i, logger, args)  
         print("|{0} Train Fusion Model Sucessfully~!".format(i + 1))
         run_fusion('train')  
         print("|{0} Fusion Image Sucessfully~!".format(i + 1))
-        train_seg(i, logger)
+        train_seg(i, logger, args)
         print("|{0} Train Segmentation Model Sucessfully~!".format(i + 1))
     print("training Done!")
