@@ -69,7 +69,7 @@ def YCrCb2RGB(input_im):
     )
     return out
 
-def train_seg(i=0, logger=None):
+def train_seg(i=0, logger=None, args=None):
     load_path = './model/Fusion/model_final.pth'
     modelpth = './model'
     Method = 'Fusion'
