@@ -2,7 +2,7 @@
 
 #  SeAFusion
 ## ✨News:
-[2024-11-28] **SeAFusion 荣获Information Fusion Best Paper Award 2024**！
+[2024-11-28] **SeAFusion 荣获 Information Fusion Best Paper Award 2024**！
 
 This is official Pytorch implementation of "[Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network](https://www.sciencedirect.com/science/article/pii/S1566253521002542)"
 ## Welcome to follow the further work of our SeAFusion：[Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity](https://github.com/Linfeng-Tang/PSFusion) 【[Paper](https://www.sciencedirect.com/science/article/pii/S1566253523001860)】, 【[Code](https://github.com/Linfeng-Tang/PSFusion)】.
