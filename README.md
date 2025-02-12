@@ -2,6 +2,9 @@
 
 #  SeAFusion
 ## ✨News:
+
+[2025-02-11] 我们发布了一个用于红外和可见光视频融合的大规模数据集：[M3SVD: Multi-Modal Multi-Scene Video Dataset](https://github.com/Linfeng-Tang/M3SVD).
+
 [2024-11-28] **SeAFusion 荣获 Information Fusion Best Paper Award 2024**！
 
 This is official Pytorch implementation of "[Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network](https://www.sciencedirect.com/science/article/pii/S1566253521002542)"
