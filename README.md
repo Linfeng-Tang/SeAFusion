@@ -3,7 +3,7 @@
 #  SeAFusion
 ## ✨News:
 
-[2025-02-11] 我们发布了一个用于红外和可见光视频融合的大规模数据集：[M3SVD: Multi-Modal Multi-Scene Video Dataset](https://github.com/Linfeng-Tang/M3SVD).
+[2025-02-11] 我们发布了一个用于红外和可见光视频融合的大规模数据集：[M2VD: Multi-modal Multi-scene Video Dataset](https://github.com/Linfeng-Tang/M2VD).
 
 [2024-11-28] **SeAFusion 荣获 Information Fusion Best Paper Award 2024**！
 
