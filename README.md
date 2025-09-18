@@ -2,13 +2,14 @@
 
 #  SeAFusion
 ## ✨News:
-[2025-9-10] 我们的论文 [Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion](https://ieeexplore.ieee.org/document/11162636) 被 **IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)** 正式接收! [[论文下载](https://ieeexplore.ieee.org/document/11162636)] [[Code](https://github.com/Linfeng-Tang/Mask-DiFuser)]
 
-[2025-3-15] 我们的论文《[C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning](https://github.com/Linfeng-Tang/C2RF)》被**International Journal of Computer Vision (IJCV)** 正式接收！[[论文下载](https://link.springer.com/article/10.1007/s11263-025-02427-1)] [[Code](https://github.com/Linfeng-Tang/C2RF)]
+- **[2025-09-10]** Our paper *[Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion](https://ieeexplore.ieee.org/document/11162636)* has been officially accepted by **IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)**! [[Paper](https://ieeexplore.ieee.org/document/11162636)] [[Code](https://github.com/Linfeng-Tang/Mask-DiFuser)]  
 
-[2025-02-11] 我们发布了一个用于红外和可见光视频融合的大规模数据集：[M2VD: Multi-modal Multi-scene Video Dataset](https://github.com/Linfeng-Tang/M2VD).
+- **[2025-03-15]** Our paper *[C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning](https://github.com/Linfeng-Tang/C2RF)* has been officially accepted by the **International Journal of Computer Vision (IJCV)**! [[Paper](https://link.springer.com/article/10.1007/s11263-025-02427-1)] [[Code](https://github.com/Linfeng-Tang/C2RF)]  
 
-[2024-11-28] **SeAFusion 荣获 Information Fusion Best Paper Award 2024**！
+- **[2025-02-11]** We released a large-scale dataset for infrared and visible video fusion: *[M2VD: Multi-modal Multi-scene Video Dataset](https://github.com/Linfeng-Tang/M2VD)*.  
+
+- **[2024-11-28]** *SeAFusion* won the **Information Fusion Best Paper Award 2024**!  
 
 This is official Pytorch implementation of "[Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network](https://www.sciencedirect.com/science/article/pii/S1566253521002542)"
 ## Welcome to follow the further work of our SeAFusion：[Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity](https://github.com/Linfeng-Tang/PSFusion) 【[Paper](https://www.sciencedirect.com/science/article/pii/S1566253523001860)】, 【[Code](https://github.com/Linfeng-Tang/PSFusion)】.
