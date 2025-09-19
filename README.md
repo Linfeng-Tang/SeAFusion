@@ -1,7 +1,8 @@
 
 
 #  SeAFusion
-## ✨News:
+## ✨ News  
+- **[2025-09-18]** Our paper *[ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts](https://arxiv.org/pdf/2503.23356?)* has been officially accepted by **Advances in Neural Information Processing Systems (NeurIPS 2025)**! [[Paper](https://arxiv.org/pdf/2503.23356?)] [[Code](https://github.com/Linfeng-Tang/ControlFusion)]  
 
 - **[2025-09-10]** Our paper *[Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion](https://ieeexplore.ieee.org/document/11162636)* has been officially accepted by **IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)**! [[Paper](https://ieeexplore.ieee.org/document/11162636)] [[Code](https://github.com/Linfeng-Tang/Mask-DiFuser)]  
 
@@ -9,7 +10,7 @@
 
 - **[2025-02-11]** We released a large-scale dataset for infrared and visible video fusion: *[M2VD: Multi-modal Multi-scene Video Dataset](https://github.com/Linfeng-Tang/M2VD)*.  
 
-- **[2024-11-28]** *SeAFusion* won the **Information Fusion Best Paper Award 2024**!  
+- **[2024-11-28]** *SeAFusion* won the **Information Fusion Best Paper Award 2024**! 
 
 This is official Pytorch implementation of "[Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network](https://www.sciencedirect.com/science/article/pii/S1566253521002542)"
 ## Welcome to follow the further work of our SeAFusion：[Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity](https://github.com/Linfeng-Tang/PSFusion) 【[Paper](https://www.sciencedirect.com/science/article/pii/S1566253523001860)】, 【[Code](https://github.com/Linfeng-Tang/PSFusion)】.
