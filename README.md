@@ -1,6 +1,13 @@
 
 
 #  SeAFusion
+
+<p align="center">
+  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Hot_Paper-Top_0.1%25-E85D3F?style=for-the-badge" alt="ESI Hot Paper (top 0.1%)"></a>
+  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Highly_Cited_Paper-Top_1%25-2F6FB0?style=for-the-badge" alt="ESI Highly Cited Paper (top 1%)"></a>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PyRqpAsAAAAJ&citation_for_view=PyRqpAsAAAAJ:u5HHmVD_uO8C"><img src="https://img.shields.io/badge/Google_Scholar_Citations-1%2C183-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar citations"></a>
+</p>
+<p align="center"><sub>Google Scholar citation count updated July 18, 2026.</sub></p>
 ## ✨ News  
 - **[2026-06-02]** Our paper **[DSPFusion: Image Fusion via Degradation and Semantic Dual-Prior Guidance](https://doi.org/10.1109/TIP.2026.3700938)** has been officially accepted by **IEEE Transactions on Image Processing (IEEE TIP)**! [[Paper](https://doi.org/10.1109/TIP.2026.3700938)] [[arXiv](https://arxiv.org/abs/2503.23355)] [[Code](https://github.com/Linfeng-Tang/DSPFusion)]
 - **[2026-02-21]** Our paper **[VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion](https://openaccess.thecvf.com/content/CVPR2026/html/Tang_VideoFusion_A_Spatio-Temporal_Collaborative_Network_for_Multi-modal_Video_Fusion_CVPR_2026_paper.html)** has been officially accepted by **The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)**! [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Tang_VideoFusion_A_Spatio-Temporal_Collaborative_Network_for_Multi-modal_Video_Fusion_CVPR_2026_paper.html)] [[arXiv](https://arxiv.org/abs/2503.23359)] [[Code](https://github.com/Linfeng-Tang/VideoFusion)]
