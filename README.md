@@ -1,13 +1,9 @@
+<h1 align="center"><a href="https://www.sciencedirect.com/science/article/pii/S1566253521002542">Image Fusion in the Loop of High-level Vision Tasks: A Semantic-aware Real-time Infrared and Visible Image Fusion Network</a></h1>
 
-
-#  SeAFusion
-
-<p align="center">
-  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Hot_Paper-Top_0.1%25-E85D3F?style=for-the-badge" alt="ESI Hot Paper (top 0.1%)"></a>
-  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Highly_Cited_Paper-Top_1%25-2F6FB0?style=for-the-badge" alt="ESI Highly Cited Paper (top 1%)"></a>
-  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PyRqpAsAAAAJ&citation_for_view=PyRqpAsAAAAJ:u5HHmVD_uO8C"><img src="https://img.shields.io/badge/Google_Scholar_Citations-1%2C183-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar citations"></a>
-</p>
-<p align="center"><sub>Google Scholar citation count updated July 18, 2026.</sub></p>
+<p align="center"><a href="https://github.com/Linfeng-Tang">Linfeng Tang</a>&emsp; Jiteng Yuan&emsp; <a href="https://sites.google.com/site/jiayima2013">Jiayi Ma</a></p>
+<p align="center"><strong>Wuhan University</strong></p>
+<p align="center"><strong>Information Fusion</strong> &middot; 2022</p>
+<p align="center"><a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/%F0%9F%94%A5_ESI_Hot-Top_0.1%25-E85D3F?style=flat-square" alt="ESI Hot Paper (top 0.1%)"></a> <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/%F0%9F%8F%86_ESI_Highly_Cited-Top_1%25-D4A017?style=flat-square" alt="ESI Highly Cited Paper (top 1%)"></a> <a href="https://www.sciencedirect.com/journal/information-fusion/about/awards/2024-inffus-best-paper-best-survey-and-best-editor-award"><img src="https://img.shields.io/badge/%F0%9F%8F%85_2024_Best_Paper_Award-Information_Fusion-7B61A8?style=flat-square" alt="Information Fusion Best Paper Award 2024"></a><br><sub><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PyRqpAsAAAAJ&citation_for_view=PyRqpAsAAAAJ:u5HHmVD_uO8C">Google Scholar &middot; <strong>1,183 citations</strong></a> &middot; updated July 18, 2026</sub></p>
 
 ## ✨ News  
 - **[2026-06-02]** Our paper **[DSPFusion: Image Fusion via Degradation and Semantic Dual-Prior Guidance](https://doi.org/10.1109/TIP.2026.3700938)** has been officially accepted by **IEEE Transactions on Image Processing (IEEE TIP)**! [[Paper](https://doi.org/10.1109/TIP.2026.3700938)] [[arXiv](https://arxiv.org/abs/2503.23355)] [[Code](https://github.com/Linfeng-Tang/DSPFusion)]
